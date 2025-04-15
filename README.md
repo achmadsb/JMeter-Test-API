@@ -2,17 +2,17 @@
 JMeter Test API Fakestoreapi.com
 
 Run this command for generate JTL report:
-'''bash
+```bash
 jmeter -n -t "JMeter Test API.jmx" -l testhasil.jtl
-'''
+```
 
 Run this command for generate CSV report:
-'''bash
+```bash
 jmeter -n -t "JMeter Test API.jmx" -l testhasil.csv
-'''
+```
 
 Run the following command for generate HTML report:
 If you want to run this command, please delete testhasil.jtl
-'''bash
+```bash
 jmeter -n -t "JMeter Test API.jmx" -l testhasil.jtl -e -o jmeter-results
-'''
+```
