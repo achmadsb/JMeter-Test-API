@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1744711991491,931,Get All Products,200,OK,Products 2-1,text,true,,10975,185,1,2,https://fakestoreapi.com/products,926,0,564
+1744711991491,1007,Sign In,200,OK,Authentication 1-1,text,true,,499,261,1,2,https://fakestoreapi.com/auth/login,1007,0,564
+1744711992424,354,Add A New Product,200,OK,Products 2-1,text,true,,395,254,1,1,https://fakestoreapi.com/products,354,0,0
+1744711992779,353,Get A Single Product,200,OK,Products 2-1,text,true,,716,188,1,1,https://fakestoreapi.com/products/1/,353,0,0
+1744711993133,353,Update A Product,200,OK,Products 2-1,text,true,,394,256,1,1,https://fakestoreapi.com/products/1/,353,0,0
+1744711993488,457,Delete A Product,200,OK,Products 2-1,text,true,,716,210,1,1,https://fakestoreapi.com/products/1/,457,0,0
